@@ -21,6 +21,7 @@ var expensive: Bool = true
 var choice: Int = 2
 let integral: Character = "\u{222B}"
 let greeting: String = "Hello"
+var name: String = "Karen"
 
 //Compare sample1 to sample2
 if sample1 == sample2 {
@@ -66,4 +67,17 @@ case 3:
 default:
     print("You made an unknown choice")
 }
-
+//Integral
+print("\(integral) is an integral")
+// For loop
+for i in 5...10 {
+    print("i = \(i)")
+}
+// While Loop
+var age: Int = 0
+while age < 6 {
+    print("age = \(age)")
+    age += 1
+}
+// Greeting
+print("\(greeting) \(name)")
