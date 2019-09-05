@@ -36,7 +36,34 @@ if heartRate > 40 && heartRate <= 80 {
 else {
     print("Heart rate is not normal.")
 }
-
-
-
+// Deposits Greater Than
+if deposits >= 100000000 {
+    print("You are exceedingly wealthy.")
+}
+else {
+    print("Sorry you are so poor.")
+}
+// Force, Mass, and Acceleration
+var force: Float = mass * acceleration
+print("force = \(force)")
+// Displaying distance
+print("\(distance) = distance")
+//Using lost and expensive
+if lost == true && expensive == true {
+    print("I am really sorry! I will get the manager.")
+}
+else if lost == true && expensive == false {
+    print("Here is a coupon for 10% off.")
+}
+// Switch/Case
+switch choice {
+case 1:
+    print("You choose 1.")
+case 2:
+    print("You choose 2.")
+case 3:
+    print("You choose 3.")
+default:
+    print("You made an unknown choice")
+}
 
